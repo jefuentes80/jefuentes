@@ -8,6 +8,18 @@ html {
     font-size: 10px;
     font-family: sans-serif;
 }
+body {
+    max-width: 30rem;
+    height: auto;
+    margin: auto;
+    margin-top: 30%;
+    border: 1px solid black;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 main {
     max-width: 48rem;
